@@ -411,3 +411,111 @@ function initialize() {
         google.maps.event.removeListener(boundsListener);
     });
 }
+
+function changeHTML1() {
+  document.getElementById("changeMe").innerHTML = "Our Bedroom Designs";
+}
+function changeHTML2() {
+    document.getElementById("changeMe").innerHTML = "Our Bathroom Designs";
+}
+function changeHTML3() {
+    document.getElementById("changeMe").innerHTML = "Explore Modular Kitchens";
+}
+function changeHTML4() {
+    document.getElementById("changeMe").innerHTML = "Living Rooms Designed by us";
+}
+function changeHTML5() {
+    document.getElementById("changeMe").innerHTML = "Our Home Office Collection";
+}
+
+function changeImage1() {
+    document.getElementById("myImage1").src = "images/project/recent-home/bed1.jpg";
+    document.getElementById("myImage2").src = "images/project/recent-home/bed2.jpg";
+    document.getElementById("myImage3").src = "images/project/recent-home/bed3.jpg";
+    document.getElementById("myImage4").src = "images/project/recent-home/bed4.jpg";
+    
+    // if (image1.src.match("images/project/recent-home/01.jpg") ){
+    //   image1.src = "images/project/recent-home/bed1.jpg";
+    // } else {
+    //   image1.src = "images/project/recent-home/01.jpg";
+    // }
+    // if (image2.src.match("images/project/recent-home/02.jpg") ){
+    //     image2.src = "images/project/recent-home/bed2.jpg";
+    //   } else {
+    //     image2.src = "images/project/recent-home/02.jpg";
+    //   }
+    // if (image3.src.match("images/project/recent-home/03.jpg") ){
+    //     image3.src = "images/project/recent-home/bed3.jpg";
+    //   } else {
+    //     image3.src = "images/project/recent-home/03.jpg";
+    //   }
+    // if (image4.src.match("images/project/recent-home/04.jpg") ){
+    //     image4.src = "images/project/recent-home/bed4.jpg";
+    //   } else {
+    //     image4.src = "images/project/recent-home/04.jpg";
+    //   }
+
+  }
+
+function changeImage2() {
+    document.getElementById("myImage1").src = "images/project/recent-home/bath1.jpg";
+    document.getElementById("myImage2").src = "images/project/recent-home/bath2.jpg";
+    document.getElementById("myImage3").src = "images/project/recent-home/bath3.jpg";
+    document.getElementById("myImage4").src = "images/project/recent-home/bath4.jpg";
+  }
+
+  function changeImage3() {
+    document.getElementById("myImage1").src = "images/project/recent-home/kit1.jpg";
+    document.getElementById("myImage2").src = "images/project/recent-home/kit2.jpg";
+    document.getElementById("myImage3").src = "images/project/recent-home/kit3.jpg";
+    document.getElementById("myImage4").src = "images/project/recent-home/kit4.jpg";
+  }
+
+  function changeImage4() {
+    document.getElementById("myImage1").src = "images/project/recent-home/liv1.jpg";
+    document.getElementById("myImage2").src = "images/project/recent-home/liv2.jpg";
+    document.getElementById("myImage3").src = "images/project/recent-home/liv3.jpg";
+    document.getElementById("myImage4").src = "images/project/recent-home/liv4.jpg";
+
+  }
+
+  function changeImage5() {
+    document.getElementById("myImage1").src = "images/project/recent-home/off1.jpg";
+    document.getElementById("myImage2").src = "images/project/recent-home/off2.jpg";
+    document.getElementById("myImage3").src = "images/project/recent-home/off3.jpg";
+    document.getElementById("myImage4").src = "images/project/recent-home/off4.jpg";
+  }
+
+  const form = document.getElementById('contact-form');
+
+		form.addEventListener('submit', (event) => {
+			event.preventDefault();
+
+			const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+			const phone = document.getElementById('phone').value;
+			const message = document.getElementById('message').value;
+
+			if (name === '' || phone === '' || message === '') {
+				alert('Please fill in all fields.');
+				return;
+			}
+
+			const whatsappMessage = `Name: ${name}%0AEmail: ${email}%0APhone: ${phone}%0AMessage: ${message}`;
+			const whatsappUrl = `https://wa.me/+919553905577?text=${whatsappMessage}`;
+
+            // name.value = '';
+            // phone.value = '';
+            // message.value = '';
+
+			// window.location.href = whatsappUrl;
+            window.open(whatsappUrl,"_blank");
+            window.location.reload();
+
+            
+
+            
+            
+		});
+ 
+  

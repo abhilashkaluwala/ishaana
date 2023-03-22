@@ -289,8 +289,8 @@ a.top:hover{
     padding:3.5em 0
 }
 .page-block-large{
-    padding:8em 0
-}
+    padding:1em 0
+}    
 .page-block-full{
     padding:5em
 }
@@ -4263,8 +4263,62 @@ a,.navbar-default .navbar-nav li ul li,.navbar-default .navbar-nav li ul li a,.n
   -webkit-filter: blur(8px);
 }
 
+#contact-form {
+    width: 50%;
+    margin: auto;
+}
+#contact-form input, textarea {
+    display: block;
+    margin-bottom: 10px;
+    width: 50%;
+}
 
+#form-btn1 :active {
+    background-color: green;
+}
+  .prod-zoom ul li {
+    padding: 5px 20px;
+    text-decoration: none;
+    color: rgba(255,255,255);
+  }
+.prod-zoom ul li a:hover{
+    border-bottom: 1px solid white;
+    text-shadow: 3px 3px white;
+}
 
+.prods li:hover {
+    transform: scale(1.5);
+}
+/* #footer {
+    background: #0a0a0a;
+    padding: 0 0 30px 0;
+    font-size: 14px;
+    color: #fff;
+  }
+  
+  #footer .copyright {
+    text-align: center;
+    padding-top: 30px;
+    color: #ffffffad;
+  }
+  
+  #footer .credits {
+    text-align: center;
+    font-size: 13px;
+    color: #ffffff85;
+    margin-top: 8px;
+  }
+  
+  #footer .credits a {
+    color: #ffffff;
+  }
+   */
+/* .nb {
+        overflow: hidden;
+        position: fixed; 
+        top: 0; 
+        width: 100%; 
+} */
 
 
 
