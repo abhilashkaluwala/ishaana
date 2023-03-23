@@ -27,7 +27,7 @@
                 }, 1000);
             });
             $('#menu .sub-nav').hide();
-            $('#menu li.sub').prepend('<span class="clicks"><i class="fa fa-chevron-down"></i></span>');
+            // $('#menu li.sub').prepend('<span class="clicks"><i class="fa fa-chevron-down"></i></span>');
             $('#menu li.sub span').on('click', function() {
                 $(this).next().next().slideToggle(300);
             });
@@ -54,15 +54,15 @@
                 }, false);
             }
 
-            function scrollPage() {
-                var sy = scrollY();
-                if (sy >= changeHeaderOn) {
-                    classie.add(header, 'cbp-af-header-shrink');
-                } else {
-                    classie.remove(header, 'cbp-af-header-shrink');
-                }
-                didScroll = false;
-            }
+            // function scrollPage() {
+            //     var sy = scrollY();
+            //     if (sy >= changeHeaderOn) {
+            //         classie.add(header, 'cbp-af-header-shrink');
+            //     } else {
+            //         classie.remove(header, 'cbp-af-header-shrink');
+            //     }
+            //     didScroll = false;
+            // }
 
             function scrollY() {
                 return window.pageYOffset || docElem.scrollTop;
@@ -518,14 +518,23 @@ function changeImage2() {
             
 		});
 
-        function myFunction() {
-            var x = document.getElementById("navbar-nav");
-            if (x.style.display === "block") {
-              x.style.display = "none";
-            } else {
-              x.style.display = "block";
-            }
-          }
+
+let hamMenuIcon = document.getElementById("ham-menu");
+let navBar = document.getElementById("nav-bar");
+let navLinks = navBar.querySelectorAll("li");
+hamMenuIcon.addEventListener("click", () => {
+  navBar.classList.toggle("active");
+  hamMenuIcon.classList.toggle("fa-times");
+});
+navLinks.forEach((navLinks) => {
+  navLinks.addEventListener("click", () => {
+    navBar.classList.remove("active");
+    hamMenuIcon.classList.toggle("fa-times");
+  });
+});
+
+
+    
 
 
     
