@@ -3704,6 +3704,70 @@ a,.navbar-default .navbar-nav li ul li,.navbar-default .navbar-nav li ul li a,.n
     html,body,div,p,table,tr,td,th,tbody,tfoot,ul,li,ol,dl,dd,dt,fieldset,cite,input,select,textarea,button,a,section,article,aside,header,footer,nav{
         font-size:12px
     }
+    .navbar-default {
+        overflow: hidden;
+        background-color: #333;
+        position: relative;
+      }
+      
+      /* Hide the links inside the navigation menu (except for logo/home) */
+      .navbar-default .navbar-nav {
+        display: none;
+      }
+      
+      /* Style navigation menu links */
+      .navbar-default li a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+      }
+      
+      /* Style the hamburger menu */
+      .navbar-default li a.icon {
+        background: black;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+      
+      /* Add a grey background color on mouse-over */
+      .navbar-default li a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     .wow{
         visibility:visible
     }
@@ -3798,7 +3862,7 @@ a,.navbar-default .navbar-nav li ul li,.navbar-default .navbar-nav li ul li a,.n
         background-color:transparent
     }
     .navbar-default .navbar-nav li a,.navbar-default .navbar-nav li>.sub-nav li>a,.navbar-nav li .sub-nav li .sub-nav li a,.navbar-nav li .sub-nav li .sub-nav li .sub-nav li a{
-        color:rgba(255,255,255,.8)!important
+        color:rgba(0, 0, 0, 0.8)!important
     }
     .navbar-default .navbar-nav li a,.navbar-default .navbar-nav>.active>a,.navbar-default .navbar-nav>.active>a:hover,.navbar-default .navbar-nav>.active>a:focus,.navbar-default .navbar-nav>li>a:focus,.navbar-default .navbar-nav li:hover a{
         color:#fff
@@ -4324,5 +4388,6 @@ a,.navbar-default .navbar-nav li ul li,.navbar-default .navbar-nav li ul li a,.n
     border-radius: 10%;
 }
 
-  
+
+
 
