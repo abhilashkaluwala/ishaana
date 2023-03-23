@@ -2895,7 +2895,7 @@ a,.navbar-default .navbar-nav li ul li,.navbar-default .navbar-nav li ul li a,.n
 }
 @media screen and (min-width:1025px) and (orientation:landscape){
     .navbar-default .navbar-nav li.sub>a:after{
-        content:'\f107';
+        /* content:'\f107'; */
         font-family:fontawesome;
         font-size:.85em;
         position:absolute;
