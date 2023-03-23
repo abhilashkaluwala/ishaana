@@ -4289,6 +4289,15 @@ a,.navbar-default .navbar-nav li ul li,.navbar-default .navbar-nav li ul li a,.n
 .prods li:hover {
     transform: scale(1.5);
 }
+
+.zoomable-text {
+    transition: transform 0.3s ease-in-out;
+
+}
+
+.zoomable-text:hover{
+    transform: scale(1.2);
+}
 /* #footer {
     background: #0a0a0a;
     padding: 0 0 30px 0;
