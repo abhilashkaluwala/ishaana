@@ -4055,7 +4055,8 @@ a,.navbar-default .navbar-nav li ul li,.navbar-default .navbar-nav li ul li a,.n
 @media only screen and (min-width:320px) and (max-width:600px) and (orientation:portrait){
     
     .queen{
-        font-size: 10px;
+        font-size: 30px;
+        margin-right: 10px;
     }
     
     
@@ -4069,7 +4070,7 @@ a,.navbar-default .navbar-nav li ul li,.navbar-default .navbar-nav li ul li a,.n
         top:30%
     }
     #slides h1 small{
-        font-size:16px
+        font-size:14px
     }
     .cbp-af-header.cbp-af-header-shrink .logo img{
         width:85%
@@ -4078,8 +4079,8 @@ a,.navbar-default .navbar-nav li ul li,.navbar-default .navbar-nav li ul li a,.n
         width:100%
     }
     #slides .symbol{
-        position:relative;
-        background-color:#333
+        position:absolute;
+        /* background-color:#333 */
     }
     .recent-project ul.bxslider li .project-data a.btn{
         font-size:1.35em
@@ -4304,12 +4305,19 @@ a,.navbar-default .navbar-nav li ul li,.navbar-default .navbar-nav li ul li a,.n
 }
 
 .ct1{
-    width: 599px;
-    margin-left: 165px;
+    width: 399px;
+    margin-left: -11px;
+    height: 426px;
+    padding: 44px;
+    background: #333;
+}
+.ct2{
+    width: 514px;
+    margin-left: 421px;
     height: 425px;
     padding: 44px;
     background: #333;
-    box-shadow: 5px 5px 20px;
+    margin-top: -425px;
 }
 .map{
     position: absolute;
@@ -4391,6 +4399,18 @@ a,.navbar-default .navbar-nav li ul li,.navbar-default .navbar-nav li ul li a,.n
     height: 425px;
     padding: 44px;
     margin-left: 21px;
+    /* margin-right: -872px; */
+    /* border: 1px solid rgb(0, 0, 0); */
+    background: #333333;
+    margin-bottom: 26px;
+    
+    }
+    .ct2{
+        width: 385px;
+    height: 425px;
+    padding: 44px;
+    margin-left: 21px;
+    margin-top: 10px;
     /* margin-right: -872px; */
     /* border: 1px solid rgb(0, 0, 0); */
     background: #333333;
