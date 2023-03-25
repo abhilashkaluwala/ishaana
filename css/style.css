@@ -4359,18 +4359,19 @@ a,.navbar-default .navbar-nav li ul li,.navbar-default .navbar-nav li ul li a,.n
     
     
     .text-block {
+        padding-bottom: 39px;
         position: absolute;
-    bottom: 124px;
-    right: 20px;
-    background-color: #ffffff;
-    color: white;
-    padding-left: 20px;
-    padding-right: 20px;
-    width: 201px;
-    height: 302px;
-    border-radius: 0px;
-    box-shadow: 5px 5px 40px black;
-    }
+        bottom: 90px;
+        right: 20px;
+        background-color: #ffffff;
+        color: white;
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 205px;
+        height: 371px;
+        border-radius: 0px;
+        box-shadow: 5px 5px 40px black;
+}
 
     .text-block h4{
         font-size: 30px;
