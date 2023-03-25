@@ -54,7 +54,7 @@ h1,h2,h3,h4,h5,h6{
     color:#56524c
 }
 .BGdark,.btn-sec:hover,.breadcrumbs,.team .social i:hover,.btn-dark,.navbar-default .navbar-toggle .icon-bar,a.outline.light:hover,.btn.btn-default.light:hover,.square3,.project-gallery.opt2 .item h6,.boxed section.BGdark,.boxed footer.BGdark{
-    background-color:#d9d9d9;
+    background-color:#777;
 }
 .BGdark.opaque,.square3.opaque{
     background-color:rgba(86,82,76,.9)
